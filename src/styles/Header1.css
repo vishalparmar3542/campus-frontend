@@ -1,0 +1,73 @@
+
+
+.header {
+    background-color: #c2bfbfb7;
+    padding: 1rem;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    height: 4rem;
+    margin-right: 1rem;
+  }
+  
+  .logo img {
+    height: 100%;
+  }
+  
+  
+  
+  
+  .left {
+    display:flex;
+    align-items: center;
+    /* line-height: 0.1px; */
+    justify-content: space-between;
+    }
+    
+    .left button{
+        margin:5px;
+        height: 40px;
+       width:100px;
+       border-radius: 8px;
+       background-color: rgba(255, 0, 0, 0.707);
+       color:white;
+       border: none;
+    }
+    
+
+    .buttons {
+        display: flex;
+        justify-content: space-between; 
+      }
+      
+      .buttons button {
+        border: none;
+        height: 40px; 
+        width: 12rem;
+        margin-right: 10px; 
+        border-radius: 8px;
+        background-color: #0000FF;
+        color: white;
+        transition: background-color 0.3s ease;
+        
+      }
+
+      .buttons button:hover {
+        background-color:rgb(0, 64, 255);
+        /* border: black; Change to a different color on hover */
+      }
+
+      h2{
+        display:flex;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+      }
+      
